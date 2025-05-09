@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 #### Mobile Preview
 
-![Mobile Preview](/images/Mobile-preview.png)
+![Mobile Preview](/images/mobile-preview.png)
 
 ### Links
 
@@ -78,7 +78,7 @@ Here are some examples from the code:
 
 ### Continued development
 
-I will keep developing this technique of writing clean HTML and CSS - it make it easy to read the code.
+I will keep developing this technique of writing clean HTML and CSS - it makes it easy to read the code.
 I will be focusing specifically on mastering CSS Flexbox and Grid techniques and responsive web design.
 
 ## Author
