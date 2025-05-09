@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --bg-white: hsl(0, 0%, 100%);
+  --bg-light-blue: hsl(212, 45%, 89%);
+  --text-grey: hsl(216, 15%, 48%);
+  --text-dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1,
+p {
+  width: 288px;
+}
+
+/* Layout */
+.card {
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Text Size & Text Styles*/
+.text-lg {
+  font-size: 1.46rem;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.text-normal {
+  font-size: 1rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Background Color */
+.bg-white {
+  background-color: var(--bg-white);
+}
+
+.bg-light-blue {
+  background-color: var(--bg-light-blue);
+}
+
+/* Text Color */
+.text-grey {
+  color: var(--text-grey);
+}
+
+.text-dark-blue {
+  color: var(--text-dark-blue);
+}
+
+/* Padding */
+.p-t-sm {
+  padding-top: 16px;
+}
+
+.p-b-lg {
+  padding-bottom: 40px;
+}
+
+.p-x-sm {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Margin */
+.m-t-md {
+  margin-top: 24px;
+}
+
+.m-b-sm {
+  margin-bottom: 16px;
+}
